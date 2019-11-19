@@ -2,6 +2,10 @@
 
 A starter terraform module to facilitate module creation based on Terraform guidelines.
 
+```hcl
+provider "alicloud" {}
+```
+
 ## References
 - https://www.terraform.io/docs/registry/modules/publish.html
 - https://www.terraform.io/docs/modules/index.html#standard-module-structure
