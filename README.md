@@ -1,19 +1,22 @@
 # Starter Terraform Alicloud Module
 
-A starter terraform module to facilitate module creation based on Terraform guidelines.
+A starter/guide terraform module to facilitate module creation based on Terraform guidelines.
 
 ```hcl
 provider "alicloud" {}
+
+module "name_of_module" {
+  // How to use it
+}
 ```
 
 ## Module creation
-- README
-- README-ZH
+- README (english)
+- README-ZH (chinese)
 - Module Code
-- Complete Terratest test
-- Example under `example/`
-- High volume of API calls
-
+- Complete Terratest test under `/test`
+- Example under `/examples`
+- Preferred a high volume of API calls with full test coverage
 
 
 ## References
